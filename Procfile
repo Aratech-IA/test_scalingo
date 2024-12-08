@@ -1,1 +1,1 @@
-web: gunicorn myapp.wsgi --bind 0.0.0.0:80
+web: gunicorn myapp.wsgi --log-file -
